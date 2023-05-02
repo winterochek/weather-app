@@ -1,3 +1,4 @@
+@import '../../styles/variables.scss';
 .header {
    display: flex;
    align-items: center;
@@ -11,6 +12,15 @@
    gap: 20px;
 }
 
+.change_theme,.logo{
+   cursor: pointer;
+}
+.change_theme{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 .logo {
    svg {
       width: 65px;
@@ -18,8 +28,9 @@
    }
 }
 
-.title{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 25px;
+.title {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 25px;
+   color: $primary-color;
 }

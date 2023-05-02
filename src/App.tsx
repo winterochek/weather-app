@@ -12,7 +12,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='month-statistics' element={<MonthStats />} />
          </Routes>
-         <Popup />
+         {/* <Popup /> */}
       </div>
    );
 }
